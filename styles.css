@@ -1,0 +1,239 @@
+:root{
+    --fondo: #f5f5f5;
+    --primario: #007bff;
+    --secundario: #56748f;
+    --terciario: #c8ff00;
+    --cuaternario: #dc3545;
+
+}
+body{
+    background-color: var(--fondo);
+    font-family: 'Varela Round', sans-serif; 
+    margin: 0;
+}
+.header{
+    background-color: var(--primario);
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.barra{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.barra a{
+    color: var(--fondo);
+    text-decoration: none;
+}
+
+.categorias{
+    padding: 10px;
+    font-weight: 700;
+    margin-bottom:50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.categorias__card{
+    width: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--fondo);
+    padding: 1rem;
+    border-radius: 10px;
+    color: var(--secundario);
+    text-decoration: none;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.1);
+}
+.categorias__card h3{
+    margin-bottom: 0;
+}
+.contenedor__ofertas{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.ofertas{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.ofertas__card{
+    width: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--fondo);
+    padding: 1rem;
+    border-radius: 10px;
+    color: var(--secundario);
+    text-decoration: none;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.1);
+}
+.boton__comprar{
+    background-color: var(--primario);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+span{
+    color: var(--cuaternario);
+    font-weight: 700;
+}
+
+.contacto{
+    width: 50%;
+    margin: auto;
+    background-color: var(--secundario);
+    color: white;
+    padding: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.1);
+    
+}
+footer{
+    background-color: var(--primario);
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+.form{
+    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.input_contacto{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--secundario);
+}
+.boton__enviar{
+    background-color: var(--terciario);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    border: none;
+    color: black;
+    width: 50%;
+    font-weight: 700;
+}
+.pagar{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: var(--secundario);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.1);
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+.pagar h2{
+    color: var(--fondo)
+}
+.datos__personales{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+legend{
+    background-color: var(--primario);
+    padding: .7rem;
+    color: white;
+    border-radius: 10px;
+}
+fieldset{
+    border: 1px solid var(--primario);
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: var(--fondo);
+}
+.label_pago{
+    
+    width: 40%;
+    padding: .2rem;
+}
+.input_pago{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--secundario);
+}
+.input_envio{
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--secundario);
+}
+.ajuste{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+table{
+    text-align: center;
+    border: 1px solid var(--primario);
+    width: 100%;
+    margin: auto;
+}
+th{
+    background-color: var(--secundario);
+    color: white;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+
+.multimedia{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+   margin-bottom: 50px;
+}
+.video{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.tabla_top{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}

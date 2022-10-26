@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csay</title>
+    <meta name="author" content="David Merino">
+    <meta name="copyright" content="Csay">
+<link rel="stylesheet" href="styles.css"> 
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+            Csay
+        </h1>
+        <p>La moda para el hombre</p>
+        <nav class="barra">
+            <a href="index.html">Inicio</a>
+            <a href="index.html#categorias">Categorías</a>
+            <a href="index.html#ofertas">Ofertas</a>
+            <a href="index.html#contacto">Contacto</a>
+            <a href="productos.html">Productos</a>
+            <a href="https://www.google.com/maps/search/tienda+de+ropa/" target="_blank">Sucursales</a>
+        </nav>
+    </header>
+    <main class="pagar">
+        <h2>Completar Pedido</h2>
+        <div class="contenedor_form">
+            <form action="" method="">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <div class="datos__personales">
+                        <div>
+                            <label class="label_pago" for="nombre">Nombre Completo</label>
+                            <input class="input_pago" type="text" name="nombre" id="nombre" placeholder="Ejemplo: Merino Pérez David">
+                        </div>
+                        <div>
+                            <label class="label_pago" for="email">Correo Electrónico</label>
+                            <input class="input_pago" type="email" name="email" id="email" placeholder="usuario@example.com">
+                        </div>
+                        <div>
+                            <label class="label_pago" for="">Teléfono</label>
+                            <input class="input_pago" type="tel" name="telefono" id="telefono" placeholder="+52 727">
+                        </div>
+
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Dirección de Envío</legend>
+
+                    <label for="">Calle:</label>
+                    <input class="input_envio" type="text" name="calle" id="calle" size="20" placeholder="Ejemplo: Calle 1">
+                    <label for="">Número</label>
+                    <input class="input_envio" type="number" name="numero" id="numero" size="5" placeholder="Ejemplo: 123">
+                    <br>
+                    <label for="">Código Postal:</label>
+                    <input class="input_envio" type="text" name="cp" id="cp" size="5" placeholder="12345">
+                    <br>
+                    <label for="">Municipio</label>
+                    <input class="input_envio" type="text" name="municipio" id="municipio" size="20" placeholder="Ejemplo: Orizaba">
+                    <label for="">Estado</label>
+                    
+                    <select class="input_envio" class="" name="" id="">
+                        <optgroup label="Norte">
+                            <option value="Baja California">Baja California</option>
+                            <option value="Sonora">Sonora</option>
+                            <option value="Chihuahua">Chihuahua</option>
+                            <option value="Coahuila">Coahuila</option>
+                            <option value="Nuevo León">Nuevo León</option>
+                            <option value="Tamaulipas">Tamaulipas</option>
+                        </optgroup>
+                        <optgroup label="Norte-occidente">
+                            <option value="Baja California Sur">Baja California Sur</option>
+                            <option value="Sinaloa">Sinaloa</option>
+                            <option value="Durango">Durango</option>
+                            <option value="Zacatecas">Zacatecas</option>
+                            <option value="Nayarit">Nayarit</option>
+                        </optgroup>
+                        <optgroup label="Centro-norte">
+                            <option value="Jalisco">Jalisco</option>
+                            <option value="Aguascalientes">Aguascalientes</option>
+                            <option value="Colima">Colima</option>
+                            <option value="Michoacán">Michoacán</option>
+                            <option value="San Luis Potosi">San Luis Potosi</option>
+                        </optgroup>
+                        <optgroup label="Centro">
+                            <option value="Ciudad de México">Ciudad de México</option>
+                            <option value="Estado de México">Estado de México</option>
+                            <option value="Hidalgo">Hidalgo</option>
+                            <option value="Puebla">Puebla</option>
+                            <option value="Tlaxcala">Tlaxcala</option>
+                            <option value="Guanajuato">Guanajuato</option>
+                            <option value="Querétaro">Querétaro</option>
+                            <option value="Morelos">Morelos</option>
+                        </optgroup>
+                        <optgroup label="Sur">
+                            <option value="Veracruz">Veracruz</option>
+                            <option value="Tabasco">Tabasco</option>
+                            <option value="Chiapas">Chiapas</option>
+                            <option value="Campeche">Campeche</option>
+                            <option value="Quintana Roo">Quintana Roo</option>
+                            <option value="Yucatán">Yucatán</option>
+                            <option value="Tabasco">Tabasco</option>
+                            <option value="Oaxaca">Oaxaca</option>
+                            <option value="Guerrero">Quintana Roo</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos de la Tarjeta</legend>
+                    <div class="datos_tarejeta">
+                        <div>
+                            <label class="label_pago" for="">Nombre Completo</label>
+                            <input class="input_pago" type="text" name="nombre_tarjeta" id="nombre_tarjeta" placeholder="Ejemplo: Merino Pérez David">
+                        </div>
+                        <div>
+                            <label class="label_pago" for="number">Número de Tarjeta</label>
+                            <input class="input_pago" type="number" name="numero_tarjeta" id="numero_tarjeta" placeholder="1234 5678 9012 3456">
+                        </div>
+                        <div>
+                            <label class="label_envio" for="">Fecha de Vencimiento</label>
+                            <input class="input_envio" type="date" name="fecha" id="fecha" placeholder="MM/AA">
+                            <label class="label_envio" for="">CVV</label>
+                            <input class="input_envio" type="tel" name="CVV" id="cvv" placeholder="1234">
+                        </div>
+                     
+                    </div>
+                    <label for="">¿Guardar Tarjeta?</label>
+                    <input type="radio" checked name="ingreso" id="save" value="1">Si
+                    <input type="radio" name="ingreso" id="save" value="2">No
+                </fieldset>   
+                <div class="ajuste">
+                    <button class="boton__enviar" type="submit" onclick="Comprobar()" >Completar Pedido</button>
+                </div>
+               
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Csay</h3>
+        <div class="redes__sociales">
+            <a href="https://www.facebook.com/"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
+                    width="30" alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+                    width="30" alt="instagram"></a>
+            <a href="https://twitter.com/"><img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" width="30"
+                    alt="twitter"></a>
+        </div>
+        <p>© 2022 Csay. Todos los derechos reservados.</p>
+
+
+    </footer>
+    <script>
+        let nombre = document.getElementById("nombre");
+        let email = document.getElementById("email");
+        let telefono = document.getElementById("telefono");
+        let cp = document.getElementById("cp");
+       let calle = document.getElementById("calle");
+       let municipio = document.getElementById("municipio");
+       let numero = document.getElementById("numero");
+         let nombre_tarjeta = document.getElementById("nombre_tarjeta");
+            let numero_tarjeta = document.getElementById("numero_tarjeta");
+            let fecha = document.getElementById("fecha");
+            let cvv = document.getElementById("cvv");
+
+       function Validar() {
+            if (nombre.value == "") {
+                alert("El campo nombre no puede estar vacío");
+                nombre.focus();
+                return false;
+            }
+            if (email.value == "") {
+                alert("El campo email no puede estar vacío");
+                email.focus();
+                return false;
+            }
+            if (telefono.value == "") {
+                alert("El campo telefono no puede estar vacío");
+                telefono.focus();
+                return false;
+            }
+            if (cp.value == "") {
+                alert("El campo cp no puede estar vacío");
+                cp.focus();
+                return false;
+            }
+            if (calle.value == "") {
+                alert("El campo calle no puede estar vacío");
+                calle.focus();
+                return false;
+            }
+            if (municipio.value == "") {
+                alert("El campo municipio no puede estar vacío");
+                municipio.focus();
+                return false;
+            }
+            if (numero.value == "") {
+                alert("El campo numero no puede estar vacío");
+                numero.focus();
+                return false;
+            }
+            if (nombre_tarjeta.value == "") {
+                alert("El campo nombre_tarjeta no puede estar vacío");
+                nombre_tarjeta.focus();
+                return false;
+            }
+            if (numero_tarjeta.value == "") {
+                alert("El campo numero_tarjeta no puede estar vacío");
+                numero_tarjeta.focus();
+                return false;
+            }
+            if (fecha.value == "") {
+                alert("El campo fecha no puede estar vacío");
+                fecha.focus();
+                return false;
+            }
+            if (cvv.value == "") {
+                alert("El campo cvv no puede estar vacío");
+                cvv.focus();
+                return false;
+            }
+            return true;
+        }
+        function Comprobar() {
+            if (Validar()) {
+                alert("Pedido completado");
+            }
+        }
+
+             
+        
+       
+       
+    </script>
+
+</body>
+
+</html>
